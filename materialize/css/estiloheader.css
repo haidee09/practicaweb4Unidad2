@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../../images/fondo3.jpg");  
+  background-repeat: repeat-y;
+}
+h4{
+  font-weight: bold;
+}
+#header{
+  width: 100%;
+  height: 10%;
+  font-family: 'Raleway', sans-serif;
+}
+#titulonavbar{
+  margin-top: 1%;
+  padding-top: 0 auto;/.
+  z-index: 1;
+}
+#logo{
+  margin-top: -3%;
+  height: 150%;
+  z-index: 1;  
+  padding-left: 2%;
+  position: relative;
+}
+#logo2{
+  margin-top: -3%;
+  height: 120%;
+  z-index: 1;  
+  padding-left: 14%;
+  position: table;
+}
+#logo3{
+  margin-top: -3%;
+  height: 130%;
+  z-index: 1; 
+  padding-left: 30%;
+  position: table;
+}
+#navbar{
+  width: 100%;
+  padding-bottom: 2%;
+  /*margin-left: 2%;*
+  /*margin-right: 2%;*/
+  margin-top: 2%;
+  font-family: 'Handlee',cursive;
+  fon
+}
+#mobile-demo li a{
+  font-size: 20px;
+  font-family: 'Sofia', cursive;
+  font-weight: bold;
+}
+
+#content-header{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#logoitc{
+  padding-top: 2%;
+}
+#datosPortada{
+  font-family: 'Gochi Hand', cursive;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#datosPortada2{
+  font-family: 'Gochi Hand', cursive;
+  font-weight: bold;
+  padding-bottom: 11px;
+}
+#datos{
+  padding-top: 2%;
+}
+#datosAdicionalesPortada{
+  font-family: 'Itim', cursive;
+  font-size: 18pt;
+}
+#nombrePractica{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 20pt;
+}
+#nombreMateria{
+  font-family: 'Handlee',cursive;
+  font-size: 20pt;
+}
+#nombrePaquetes{
+  font-family: 'Handlee',cursive;
+}
+#nombreIntegrantes{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 16pt;
+}
+#footer{
+}
+.card-title{
+  font-family: 'Sofia', cursive;
+}
+.contenido-paquete{
+  font-family: 'Merienda', cursive;
+}
+
+
