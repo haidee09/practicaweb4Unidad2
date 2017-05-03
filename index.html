@@ -13,24 +13,61 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Mamma Mia Restarurant</title>
   </head>
+  <!--Descripción del Proyecto-->
+  <!-- Aplicación Web de un restaurante que muestra un menú de comidas a elegir por el usuario. La carta de los platillos a elegir esta dividida en desayuno, comida y cena, los cuales contienen una entrada, un plato fuerte y un postre, acompañados de una bebida; los platillos los puede escoger el usuario mediante la selección de elementos de listas donde se despligan los nombres de las entradas, platos fuertes, postres y bebidas de cada sección-->   
   <body class="white">
+    <!--Barra de navegación del Restaurante-->
     <div id="navbar">
       <nav class="col l12">
-        <div class="nav-wrapper z-depth-5  yellow lighten-4">        
-          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-med-and-down" id="logo"><!--- vista escritorio-->
-          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-med-and-up" id="logo2"><!--vista movil-->
-          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-small-only hide-on-large-only" id="logo3"><!-- vista tablet-->
+        <div class="nav-wrapper z-depth-5  yellow lighten-4"> 
+          <!---Logo del restaurante: vista de escritorio-->       
+          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-med-and-down" id="logo">
+          <!--Logo del restaurante: vista móvil-->
+          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-med-and-up" id="logo2">
+          <!--Logo del restaurante: vista tablet-->
+          <img src="images/logo3-1.png" alt="" class="responsive-img hide-on-small-only hide-on-large-only" 
+          id="logo3">
+          <!-- Titulo: vista de escritorio-->
           <a href="#" class="brand-logo flow-text black-text hide-on-med-and-down" id="titulonavbar">Restaurant</a>
+          <!--Icono de hamburguesa-->
           <a href="#" data-activates="mobile-demo" class="button-collapse">
-          <i class="fa fa-bars fa-2x black-text" aria-hidden="true"></i></a>
+            <i class="fa fa-bars fa-2x black-text" aria-hidden="true"></i>
+          </a>
+          <!--Elemento del menú de barra de navegación: vista de escritorio-->
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="black-text" href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Inicio</a></li>
-            <li><a class="black-text" href="desayuno.html"><img src="images/iconos/coffe.png" class="icon"> Desayuno</a></li>
-            <li><a class="black-text" href="comida.html"><img src="images/iconos/plato.png" class="icon1"> Comida</a></li>
-            <li><a class="black-text" href="cena.html"><img src="images/iconos/botella.png" class="icon"> Cena</a></li>
-            <li><a class="black-text" href="contacto.html"><i class="fa fa-user fa-2x" aria-hidden="true"></i> Contacto</a></li>
-            <li><a class="black-text" href="guia.html"><i class="fa fa-question fa-2x" aria-hidden="true"></i> Guía</a></li>
+            <li>
+              <a class="black-text" href="index.html">
+                <i class="fa fa-home fa-2x" aria-hidden="true"></i>Inicio
+              </a>
+            </li>
+            <li>
+              <a class="black-text" href="desayuno.html">
+                <img src="images/iconos/coffe.png" class="icon">
+                Desayuno
+              </a>
+            </li>
+            <li>
+              <a class="black-text" href="comida.html">
+                <img src="images/iconos/plato.png" class="icon1">Comida
+              </a>
+            </li>
+            <li>
+              <a class="black-text" href="cena.html">
+                <img src="images/iconos/botella.png" class="icon">Cena
+              </a>
+            </li>
+            <li>
+              <a class="black-text" href="contacto.html">
+                <i class="fa fa-user fa-2x" aria-hidden="true"></i>Contacto
+              </a>
+            </li>
+            <li>
+              <a class="black-text" href="guia.html">
+                <i class="fa fa-question fa-2x" aria-hidden="true"></i>Guía
+              </a>
+            </li>
           </ul>
+          <!--Elementos del menú de navegación: vista tablet y móvil-->
           <ul class="side-nav yellow lighten-4" id="mobile-demo">
             <li>
             <div class="userView">
@@ -41,77 +78,92 @@
             </li>
             <li>
               <a class="black-text" href="index.html">
-                <i class="fa fa-home fa-2x black-text center" aria-hidden="true"></i>Inicio</a>
+                <i class="fa fa-home fa-2x black-text center" aria-hidden="true"></i>Inicio
+              </a>
             </li>
             <li>
               <a class="black-textr" href="desayuno.html" class="center waves-red">
-              <img src="images/iconos/coffe.png" class="icon">Desayuno</a>
+                <img src="images/iconos/coffe.png" class="icon">Desayuno
+              </a>
             </li>
             <li>
               <a class="black-text" href="comida.html" class="center waves-red">
-                <img src="images/iconos/plato.png" class="icon1"> Comida</a>
+                <img src="images/iconos/plato.png" class="icon1"> Comida
+              </a>
             </li>
             <li>
               <a class="black-text" href="cena.html" class="center waves-red">
-                <img src="images/iconos/botella.png" class="icon">Cena</a>
+                <img src="images/iconos/botella.png" class="icon">Cena
+              </a>
             </li>
             <li>
               <a class="black-text" href="contacto.html" class="center waves-red">
-                <i class="fa fa-user fa-2x black-text" aria-hidden="true"></i> Contacto</a>
+                <i class="fa fa-user fa-2x black-text" aria-hidden="true"></i> Contacto
+              </a>
             </li>
             <li>
               <a class="black-text" href="guia.html" class="center waves-red">
-                <i class="fa fa-question fa-2x black-text" aria-hidden="true"></i>Guía</a>
+                <i class="fa fa-question fa-2x black-text" aria-hidden="true"></i>Guía
+              </a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
-      <ul class="pgwSlider">
-        <li>
-          <img src="images/especialidad1.jpg" alt="Omelet Mamma Mia" data-description="Delicioso omlet de huevo con verduras y carnes en su interior, acompañado con fruta y verdura fresca.">
-        </li>
-        <li>
-          <img src="images/especialidad2.jpg" alt="Tacos de la Casa" data-description="Tacos de res con tortilla frita o dorada al gusto, acompañados de verdura y no podrían faltar los totopos con la salsa roja especial de la casa.">
-        </li>
-        <li>
-            <img src="images/especialidad3.jpg" alt="Ensalada Gourmet" data-description="Entrada ideal para una cena romántica: una copa de vino y una ensalada de frutas dulces. Para una noche con esa persona especial.">
-        </li>
-      </ul>
+    <!--Sección del Slider: Especialidades de la casa del Restaurante-->
+    <ul class="pgwSlider">
+      <!--Platillo 1 del Slider-->
+      <li>
+        <!--Imagen del Platillo 1-->
+        <img src="images/especialidad1.jpg" alt="Omelet Mamma Mia" data-description="Delicioso omlet de huevo con verduras y carnes en su interior, acompañado con fruta y verdura fresca.">
+      </li>
+      <!--Platillo 2 del Slider-->
+      <li>
+        <!--Imagen del  Platillo 2-->
+        <img src="images/especialidad2.jpg" alt="Tacos de la Casa" data-description="Tacos de res con tortilla frita o dorada al gusto, acompañados de verdura y no podrían faltar los totopos con la salsa roja especial de la casa.">
+      </li>
+      <!--Platillo 3 del Slider-->
+      <li>
+        <!--imagen del Platillo 3-->
+        <img src="images/especialidad3.jpg" alt="Ensalada Gourmet" data-description="Entrada ideal para una cena romántica: una copa de vino y una ensalada de frutas dulces. Para una noche con esa persona especial.">
+      </li>
+    </ul>
+    <!--Espaciado entre el Slider y el contenido de la página-->
     <div class="row">      
-    </div>    
-    <!-- paquete de desyunos--> 
-    
+    </div>  
+    <!--Contenido de la página: paquetes de comida que ofrece el restaurante--> 
     <div class="row amber lighten-4 z-depth-3" id="datos">      
-      <!--titulo -->
-
+      <!--Botón flotante: Ordena aquí-->
       <div class="col 112 m12 s12">           
-        <h5 class="right red-text"> <i class="fa fa-hand-o-left" aria-hidden="true"> </i> Ordena aquí </h5>
+        <h5 class="right red-text"> <i class="fa fa-hand-o-left" aria-hidden="true"></i> Ordena aquí </h5>
         <a class="right btn btn-floating btn-large red pulse"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>  </a>          
       </div>
+      <!--Paquetes de desayunos: título del contenedor-->
       <div class="row col l12 m12 s12">
-      <div class="col 112 m12 s12">
-        <h5 class="left text-flow " id="nombrePaquetes">Paquetes de Desayunos
-          <i class="fa fa-cutlery " aria-hidden="true"></i>
-        </h5>
-      </div>     
-    </div>
-      <!--contenedor principal-->
+        <div class="col 112 m12 s12">
+          <h5 class="left text-flow " id="nombrePaquetes">Paquetes de Desayunos
+            <i class="fa fa-cutlery " aria-hidden="true"></i>
+          </h5>
+        </div>     
+      </div>
+      <!--Paquetes de desayunos: contenedor principal-->
       <div class="row">
       <div class="col l12 m12 s12">
-        <!--paquete 1-->
+        <!--Paquete de Desayuno 1-->
         <div class="col l4 m12 s12">
-          <div class="card hoverable" id="cardpaquete">  
+          <!--Card en donde se almacena el contenido del paquete-->
+          <div class="card hoverable" id="cardpaquete">
+            <!--Imagen del paquete-->  
             <div class="card-image">
               <img src="images/paquetes/desayuno1.jpg">
-              <!--<a class="btn btn-floating btn-large  halfway-fab waves-effect waves-light red pulse">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </a>-->
             </div>
+            <!--Descripción del paquete-->
             <div class="card-content">          
               <span class="card-title red-text text-lighten-1s">El de la Abuelita</span>
               <p class="contenido-paquete">Rico en proteínas. El paquete incluye: 2 huevos estrellados, 1 café americano, salchichas o tocino, 2 hotcakes  y pan tostado.</p>
+              <!--Línea divisora-->
               <div class="row divider"></div>
+              <!--Botón del precio del paquete-->
               <div class="center">
                 <button class="center waves-effect waves-orange btn-large red" onclick="" id="botonComprar">
                   <i class="fa fa-usd" id="iconobtn" aria-hidden="true"></i>
@@ -122,7 +174,7 @@
           </div>
         </div>
 
-        <!--paquete 2-->
+        <!--Paquete de Desayuno 2-->
         <div class="col l4 m12 s12">
           <div class="card hoverable">  
             <div class="card-image">
@@ -145,7 +197,7 @@
           </div>
         </div>
 
-        <!--paquete 3-->
+        <!--Paquete de Desayuno 3-->
         <div class="col l4 m12 s12">
           <div class="card hoverable">  
             <div class="card-image">
@@ -167,15 +219,14 @@
             </div>            
           </div>
         </div>
-
-        <!-- termino de los paquetes -->      
+        <!-- Término de los paquetes de Desayunos-->      
       </div>
     </div> 
     </div>    
 
-    <!-- paquete de comidas-->    
+    <!--Paquetes de comidas: contenedor principal-->
     <div class="row amber accent-1" id="datos">
-      <!--titulo -->
+      <!--Paquete de Desayuno 1-->
       <div class="row col 12 m12 s12">
         <h5 class="left text-flow " id="nombrePaquetes">Paquetes de Comidas
           <i class="fa fa-cutlery" aria-hidden="true"></i>
