@@ -9,9 +9,16 @@
     <link rel="stylesheet" href="materialize/css/estiloheader.css">
     <link rel="stylesheet" href="materialize/css/estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Amita|Caveat+Brush|Gochi+Hand|Itim|Merienda|Sofia|Libre+Baskerville|Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amita|Handlee|Caveat+Brush|Gochi+Hand|Itim|Merienda|Sofia|Libre+Baskerville|Lobster+Two" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Reporte</title>
+    <style>
+    /* Only resize the element if PDF is embedded */
+    .pdfobject-container {
+      width: 100%;
+      height: 500px;
+    }
+    </style>
   </head>
   <body class="lime lighten-4">
     <div class="row" id="header">
@@ -42,6 +49,7 @@
           </div>
         </div>
       </div>
+    
     <div id="navbar">
       <nav class="col l12">
         <div class="nav-wrapper z-depth-5  yellow lighten-4">        
@@ -95,8 +103,10 @@
         </div>
       </nav>
     </div>
-    <div class="row col s12">
-      <div class="center hide-on-small-only hide-on-med-only">
+    <div class="row"> </div>
+    <div class="row center col l8 m10 s12" id="pdfcontainer">
+    <iframe src="reporte.pdf" style="width:100%; height:500px;" frameborder="0"> </iframe>
+      <!--<div class="center hide-on-small-only hide-on-med-only">
           <embed src="reporte.pdf" width="70%" height="600" href="reporte.pdf"></embed>          
       </div>
       <div class="center hide-on-small-only hide-on-large-only">
@@ -104,7 +114,7 @@
       </div>
       <div class="hide-on-large-only">
           <embed src="reporte.pdf" width="100%" height="400" href="reporte.pdf"></embed>          
-      </div>
+      </div>-->
     </div>
     <footer class="page-footer deep-orange">
       <div class="footer-copyright  deep-orange lighten-1">
@@ -130,5 +140,9 @@
     <script type="text/javascript" src="materialize/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="materialize/js/scripts.js"></script>
+    <script type="text/javascript" src="materialize/js/pdfobject.min.js"></script>
+    <script>
+      //PDFObject.embed("reporte.pdf", "#pdfcontainer");
+    </script>
   </body>
 </html>
